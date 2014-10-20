@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.show-grid [class^="col-"] {
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.imgstyle {
+  background: none repeat scroll 0 0 #ff00ff;
+  border: 1px solid;
+  border-radius: 50%;
+  display: block;
+  height: 120px;
+  margin: 0 auto;
+  width: 120px;
+  
+}
+.imgstyle:hover {
+	background:green;
+	transition: background 1s;
+	}
+
+
+.acc {
+position:fixed !important;
+top:0;
+right:0;
+bottom:0;
+left:0;
+background:#ff00ff;
+z-index:-10;
+}
+
+@media (max-width:480px){
+.fw{
+	width:100%;
+	}
+	}
