@@ -32,6 +32,28 @@ left:0;
 background:#ff00ff;
 z-index:-10;
 }
+.new-tab{
+	width:100%;
+	}
+.new-tab ul li{
+	display:inline-block;
+	}
+.new-tab ul li a{
+	display:block;
+	padding:0px 15px;
+	line-height:35px;
+	text-decoration:none;
+	}
+.new-tab ul li a.active{
+	background:#6C6;
+	color:black;
+	}
+.display-n{
+	display:none;
+	}
+.display-b{
+	display:block;
+	}
 
 @media (max-width:480px){
 .fw{
